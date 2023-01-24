@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render damage report create page 1`] = `
+<div
+  data-testid="message"
+>
+  <nav
+    className="fixed z-30 w-full bg-white border-b-2 border-indigo-600"
+  >
+    <div
+      className="px-6 py-3"
+    >
+      <div
+        className="flex items-center justify-between"
+      >
+        <div
+          className="flex items-center justify-start"
+        >
+          <a
+            className="flex items-center text-xl font-bold"
+            href="/"
+          >
+            <span
+              className="text-blue-800"
+            >
+              Fixico
+            </span>
+          </a>
+        </div>
+        <div
+          className="flex items-center"
+        >
+          <div
+            className="relative inline-block "
+          >
+            <button
+              className="relative flex items-center p-2 text-sm text-gray-600 bg-white border border-transparent rounded-md focus:border-blue-500 focus:ring-opacity-40 dark:focus:ring-opacity-40 focus:ring-blue-300 dark:focus:ring-blue-400 focus:ring dark:text-white dark:bg-gray-800 focus:outline-none"
+            >
+              <span
+                className="mx-1"
+              >
+                Hi, Lasantha
+              </span>
+            </button>
+            <div
+              className="absolute right-0 z-20 w-56 mt-2 overflow-hidden bg-white rounded-md"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div
+    className="pt-12 lg:flex"
+  >
+    <div
+      className="flex flex-col w-full px-4 py-8 overflow-y-auto border-b lg:border-r lg:h-screen lg:w-64"
+    >
+      <div
+        className="flex flex-col justify-between mt-6"
+      >
+        <aside>
+          <ul>
+            <li>
+              <a
+                className="flex items-center px-4 py-2 text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-md "
+                href="/create"
+              >
+                <span
+                  className="mx-1 font-medium"
+                >
+                  Damage Report
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                className="flex items-center px-4 py-2 mt-5 text-gray-600 rounded-md bg-gray-100 hover:bg-gray-200"
+                href="/list"
+              >
+                <span
+                  className="mx-1 font-medium"
+                >
+                  View Overview
+                </span>
+              </a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+    <div
+      className="w-full h-full p-4 m-8 overflow-y-auto"
+    >
+      <div
+        className="flex items-center mr-8 border-4 border-dotted "
+      >
+        <div
+          className="p-5 w-full"
+        >
+          <div
+            className="text-lg pb-5 font-semibold"
+          >
+            Create Damage Report
+          </div>
+          <hr />
+          <div
+            className="w-full"
+          >
+            <div
+              className="mt-6 w-80"
+            >
+              <div
+                className="text-sm"
+              >
+                Enter Vehicle Information
+              </div>
+              <div
+                className="mt-6"
+              >
+                <label
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
+                >
+                  Vehicle Brand
+                </label>
+                <select
+                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  onChange={[Function]}
+                  role="brand"
+                >
+                  <option
+                    value=""
+                  >
+                    Select
+                  </option>
+                  <option
+                    value="Alfa Romeo"
+                  >
+                    Alfa Romeo
+                  </option>
+                  <option
+                    value="Audi"
+                  >
+                    Audi
+                  </option>
+                  <option
+                    value="BMW"
+                  >
+                    BMW
+                  </option>
+                  <option
+                    value="Fiat"
+                  >
+                    Fiat
+                  </option>
+                  <option
+                    value="Honda"
+                  >
+                    Honda
+                  </option>
+                  <option
+                    value="Hyundai"
+                  >
+                    Hyundai
+                  </option>
+                  <option
+                    value="Kia"
+                  >
+                    Kia
+                  </option>
+                  <option
+                    value="Peugeot"
+                  >
+                    Peugeot
+                  </option>
+                  <option
+                    value="Renault"
+                  >
+                    Renault
+                  </option>
+                  <option
+                    value="Skoda"
+                  >
+                    Skoda
+                  </option>
+                  <option
+                    value="Smart"
+                  >
+                    Smart
+                  </option>
+                  <option
+                    value="Suzuki"
+                  >
+                    Suzuki
+                  </option>
+                  <option
+                    value="Volkswagen"
+                  >
+                    Volkswagen
+                  </option>
+                  <option
+                    value="Volvo"
+                  >
+                    Volvo
+                  </option>
+                </select>
+              </div>
+              <div
+                className="mt-6"
+              >
+                <label
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
+                >
+                  Vehicle Model
+                </label>
+                <select
+                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  onChange={[Function]}
+                  role="model"
+                >
+                  <option
+                    value=""
+                  >
+                    Select
+                  </option>
+                </select>
+              </div>
+              <div
+                className="mt-6 false"
+              >
+                <label
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
+                >
+                  Vehicle Number
+                  <span
+                    className="text-red-600"
+                  >
+                    *
+                  </span>
+                </label>
+                <input
+                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  hidden={false}
+                  onChange={[Function]}
+                  placeholder="Enter vehicle number"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="flex justify-end pt-10 gap-10"
+          >
+            <button
+              className="bg-blue-500 hover:bg-blue-700text-white font-bold py-2 px-4 rounded"
+              onClick={[Function]}
+              role="nextBtn"
+            >
+              Next
+            </button>
+          </div>
+          <div
+            className="Toastify"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

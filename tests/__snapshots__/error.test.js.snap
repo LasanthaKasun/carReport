@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render damage report create page 1`] = `
+<span
+  className="text-red-500 font-medium text-sm"
+/>
+`;
+
+exports[`should render error component 1`] = `
+<span
+  className="text-red-500 font-medium text-sm"
+/>
+`;

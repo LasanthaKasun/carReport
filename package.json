@@ -1,0 +1,39 @@
+{
+  "name": "nextjs-assignment-base",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest --watch"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "axios": "^0.27.2",
+    "formidable": "^2.0.1",
+    "mv": "^2.1.1",
+    "next": "12.2.2",
+    "node-mocks-http": "^1.11.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.34.2",
+    "react-router-dom": "^6.3.0",
+    "react-test-renderer": "^18.2.0",
+    "react-toastify": "^9.0.8"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "autoprefixer": "^10.4.8",
+    "babel-jest": "^28.1.3",
+    "eslint": "8.20.0",
+    "eslint-config-next": "12.2.2",
+    "jest": "^28.1.3",
+    "jest-css-modules": "^2.1.0",
+    "jest-environment-jsdom": "^29.0.1",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  }
+}

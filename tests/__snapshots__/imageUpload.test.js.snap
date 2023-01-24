@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render image uploader 1`] = `
+<div
+  className="mt-6"
+>
+  <label
+    className="block mb-2 text-sm font-medium"
+  >
+    Upload Vehicle Image 
+    <span
+      className="text-red-600"
+    >
+      *
+    </span>
+  </label>
+  <div
+    className="flex"
+  >
+    <div
+      className="rounded-lg text-gray-900 dark:bg-gray-700 w-full h-72"
+    >
+      <div
+        className="m-4"
+      >
+        <label
+          className="inline-block mb-2 text-gray-500"
+        >
+          Upload Image(jpg,png,svg,jpeg)
+        </label>
+        <div
+          className=""
+        >
+          <label
+            className="flex flex-col w-full border-2 border-dashed hover:bg-gray-600 hover:border-gray-500"
+          >
+            <div
+              className="flex flex-col items-center justify-center p-4"
+            >
+              <img
+                className="object-cover h-24 w-96"
+              />
+            </div>
+            <input
+              className="opacity-0"
+              onChange={[Function]}
+              role="uploadFile"
+              type="file"
+            />
+          </label>
+        </div>
+      </div>
+      <div
+        className="flex p-2 space-x-1"
+      >
+        <button
+          className="px-4 py-2 text-white bg-gray-500 rounded shadow-xl"
+          disabled={true}
+          onClick={[Function]}
+          role="uploadButton"
+        >
+          Upload
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
